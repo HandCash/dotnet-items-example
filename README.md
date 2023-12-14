@@ -13,9 +13,9 @@ Add your configuration to app settings.  You can find these credentials at https
 A full description of the item metadata is here https://docs.handcash.io/docs/collection-metadata
 
 ### important notes
-- using this new endpoint minting is free and we are limiting file sizes to 100kb and batch sizes of 100 items per batch
+- using this new endpoint minting is free and we are limiting file sizes to 50kb and batch sizes of 100 items per batch
 - you provide 2 images 
-  - `item.mediaDetails.image.url` is a link to the image that is put on chain with a limit of 100kb
+  - `item.mediaDetails.image.url` is a link to the image that is put on chain with a limit of 50kb
   - `item.mediaDetails.image.imageHighResUrl` is a link to an image that Handcash will cache to display in market and portal and this does not have a size limit 
 
 
