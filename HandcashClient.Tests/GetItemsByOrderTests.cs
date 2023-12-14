@@ -20,7 +20,7 @@ namespace HandcashClient.Tests
         public async Task GetItemsByOrder_ShouldReturnItems()
         {
             // Arrange
-            var orderId = "657a48f3bddf5fe0d52afc26";
+            var orderId = "657a48f3bddf5fe0d52afc26"; // replace with your order id
 
             // Act
             var items = await _client.GetItemsByOrder(orderId);

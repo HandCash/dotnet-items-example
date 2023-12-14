@@ -17,7 +17,7 @@ namespace HandcashClient.Tests
         public async Task GetOrderStatus_ShouldReturnCorrectOrderStatus()
         {
             // Arrange
-            var orderId = "657a48f3bddf5fe0d52afc26";
+            var orderId = "657a48f3bddf5fe0d52afc26"; // replace with your order id
 
             // Act
             var result = await _client.GetOrderStatus(orderId);

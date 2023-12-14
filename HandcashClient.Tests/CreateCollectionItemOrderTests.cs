@@ -17,7 +17,7 @@ namespace HandcashClient.Tests
             {
                 new CreateItemMetadata
                 {
-                    user = "612cba70e108780b4f6817ad",
+                    user = "612cba70e108780b4f6817ad", //optional
                     name = "Rafa",
                     rarity = "Mythic",
                     attributes = new List<ItemAttributeMetadata>
