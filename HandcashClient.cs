@@ -89,11 +89,13 @@ namespace HandcashClient
        {
             var requestUri = "/v3/itemCreationOrder/issueItems";
 
+            var uid = Guid.NewGuid().ToString();
             var requestBody = new
             {
                 items = itemsToCreate,
                 itemCreationOrderType = "collectionItem",
-                referencedCollection = collectionId
+                referencedCollection = collectionId,
+                uid,
             };
 
             var response = await DefaultRequest("POST", requestUri, requestBody, _businessWalletAuthToken);
